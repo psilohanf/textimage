@@ -4,7 +4,7 @@
 # This script will generate a gif-image containing a quote and it's author
 # Dependency: you have to have imagemagick installed
 
-my ($quote, $author);
+my ($quote, $author, $theme, $num_args);
 
 $num_args = $#ARGV + 1;
 die "usage: textimage.pl \'quote\' \'author\'\n" unless $num_args == 2;
